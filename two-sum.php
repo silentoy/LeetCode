@@ -1,6 +1,4 @@
 <?php
-	var_dump(towSum(array(4, 7, 3, 2), 9));
-	
 	/**
 	* 循环数组,用$target去减当前的$val,判断结果在给定的$nums里,则匹配出需要的key
 	* 1. 如果$val比给定的$target还要大,直接跳过本次循环
@@ -18,4 +16,7 @@
 		
 		return false;
 	}
+
+	//DEMO
+	var_dump(towSum(array(4, 7, 3, 2), 9));
 ?>
